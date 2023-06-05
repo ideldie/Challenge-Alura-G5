@@ -1,0 +1,172 @@
+﻿body {
+    background-color: #C8DDF2;
+    font-family: Mukta;
+    padding: 10px;
+}
+main {
+    height: 600px;
+}
+.logo {margin: 20px;}
+
+.texto {
+    margin: 40px;
+    padding: 20px;
+    width: 600px;
+    
+}
+#textoo {
+    background-color: #C8DDF2;
+    color: darkblue;
+    border: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+    border-color: darkblue;
+}
+
+::placeholder {
+    font-size: 25px;
+    color: darkblue;
+
+}
+
+h5 { color: darkblue;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.encriptar {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    width: 328px;
+    height: 67px;
+    padding: 20px 120px;
+    gap: 8px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 240px;
+    border-radius: 20px;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    border-color: none;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+ .encriptar:hover {
+    border-color: dimgrey;
+    background-color: blue;
+    }
+ .encriptar:active {
+     border-color: forestgreen;}
+
+.desencriptar {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    width: 328px;
+    height: 67px;
+    padding: 20px 110px;
+    gap: 8px;
+    margin-top: 240px;
+    border-radius: 20px;
+    background-color: lightsteelblue;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    border-color: none;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+    .encriptar:hover {
+        border-color: dimgrey;
+        background-color: blue;
+    }
+
+    .encriptar:active {
+        border-color: forestgreen;
+    }
+
+    /**rectangulo**/ 
+
+    .rectangulo {
+    position: absolute;
+    width: 400px;
+    height: 744px;
+    left: 1200px;
+    top: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -8px;
+    text-align: center;
+    
+}
+
+    .rectangulo .chabon {
+    
+    padding-top: 155px;
+    left: 28.37%;
+    right: 60.13%;
+    top: 80%;
+    bottom: 20%;
+}
+
+            .rectangulo h3 {
+                width: auto;
+                font-family: Mukta;
+                font-style: normal;
+                font-size: 20px;
+                font-weight: bold;
+                color: darkblue;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .rectangulo p {
+                font-family: Mukta;
+                font-size: 15px;
+                color: darkblue;
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+
+        .rectangulo .mensajeEncriptado .copiar {
+            box-sizing: border-box;
+            width: 228px;
+            height: 47px;
+            padding: 10px 60px;
+            gap: 8px;
+            border-radius: 20px;
+            background-color: darkblue;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: Arial;
+            border-color: none;
+            transition: 0.5s all;
+            cursor: pointer;
+        }
+
+
+ 
+
+
+footer {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 240px;
+    color: darkblue;
+}
+
+
+footer a i {
+    padding: 35px;
+}
